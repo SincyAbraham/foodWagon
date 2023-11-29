@@ -3,7 +3,7 @@ const dbPassword = process.env.DB_PASSWORD;
 const dbDatabase = process.env.DB_DATABASE;
 const dbHost = process.env.DB_HOST;
 const dbPORT = process.env.DB_PORT;
-const mongoURI = `mongodb://${dbHost}:${dbPORT}/${dbDatabase}`;
+const mongoURI = `mongodb+srv://master:RandomPassword123@cluster0.e4pjvee.mongodb.net/food?retryWrites=true&w=majority`;
 //const mongoURI = `mongodb+srv://nisaridas:Reset123@newmongodb.a7bmivf.mongodb.net/`;
 
 module.exports =  {
