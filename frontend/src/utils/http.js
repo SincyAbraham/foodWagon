@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return 'http://localhost:5000';
+  return 'https://foodwagon-backend.onrender.com';
 }
 async function POST(url, info, token, type) {
   const headers = new Headers();
