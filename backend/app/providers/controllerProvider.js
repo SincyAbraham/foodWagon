@@ -1,0 +1,9 @@
+const main = {};
+main.registerController 				= require("../http/controllers/auth/registerController");
+main.loginController 					= require("../http/controllers/auth/loginController");
+main.resetPasswordController 			= require("../http/controllers/auth/resetPasswordController");
+main.categoryControllers				= require('../http/controllers/categoryControllers');
+main.productsControllers				= require('../http/controllers/productsControllers');
+main.userControllers 					= require('../http/controllers/userControllers');
+main.ordersControllers 					= require('../http/controllers/ordersControllers');
+module.exports = main;
